@@ -1,0 +1,100 @@
+File: semgrep-grammars/src/tree-sitter-scala/LICENSE
+Git repo name: ocaml-tree-sitter
+Last git commit:
+  commit 211bb726bb5857f872247b600c7c1808e641a8d4
+  Author: Tuấn-Anh Nguyễn <ubolonton@gmail.com>
+  Date:   Tue Jul 14 03:31:00 2020 +0700
+  
+      Various improvements (#13)
+      
+      * Add supertypes
+      
+      * Support multi-line case clauses
+      
+      * Allow definitions in case clauses, expressions in class/object bodies
+      
+      * Add annotations, infix patterns, implicit parameters
+      
+      * Add tree-sitter CLI declaration to package.json
+      
+      * Add annotations on type parameters
+      
+      * Add type annotations, type projections; fix compound types
+      
+      * Fix operator_identifier regexp
+      
+      * Add tuple types and repeated parameter types
+      
+      * Give infix_pattern higher precedence than capture_pattern
+      
+      * Make infix_type nestable
+      
+      * Allow body-less trait_definition
+      
+      * Allow omitting parens when function_type's input is a single type
+      
+      * Put all alternatives function_type's parameters under parameter_types
+      
+      * Give alternative_pattern lower precedence than typed_pattern
+      
+      * Remove parenthesized_pattern
+      
+      * Allow empty body in case_clause
+      
+      * Regenerate parser
+---
+File: semgrep-grammars/src/tree-sitter-scala/grammar.js
+Git repo name: ocaml-tree-sitter
+Last git commit:
+  commit 211bb726bb5857f872247b600c7c1808e641a8d4
+  Author: Tuấn-Anh Nguyễn <ubolonton@gmail.com>
+  Date:   Tue Jul 14 03:31:00 2020 +0700
+  
+      Various improvements (#13)
+      
+      * Add supertypes
+      
+      * Support multi-line case clauses
+      
+      * Allow definitions in case clauses, expressions in class/object bodies
+      
+      * Add annotations, infix patterns, implicit parameters
+      
+      * Add tree-sitter CLI declaration to package.json
+      
+      * Add annotations on type parameters
+      
+      * Add type annotations, type projections; fix compound types
+      
+      * Fix operator_identifier regexp
+      
+      * Add tuple types and repeated parameter types
+      
+      * Give infix_pattern higher precedence than capture_pattern
+      
+      * Make infix_type nestable
+      
+      * Allow body-less trait_definition
+      
+      * Allow omitting parens when function_type's input is a single type
+      
+      * Put all alternatives function_type's parameters under parameter_types
+      
+      * Give alternative_pattern lower precedence than typed_pattern
+      
+      * Remove parenthesized_pattern
+      
+      * Allow empty body in case_clause
+      
+      * Regenerate parser
+---
+File: semgrep-grammars/src/semgrep-scala/grammar.js
+Git repo name: ocaml-tree-sitter
+Last git commit:
+  commit 9bca49eafc8489bc0d508057079bec9b7d10f65e
+  Author: Martin Jambon <martin@returntocorp.com>
+  Date:   Wed Apr 14 16:44:28 2021 -0700
+  
+      Include new file 'fyi/versions' that tracks git info associated with
+      each file in the "FYI" list.
+---
