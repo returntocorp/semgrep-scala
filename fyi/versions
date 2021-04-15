@@ -1,51 +1,19 @@
 File: semgrep-grammars/src/tree-sitter-scala/LICENSE
-Git repo name: ocaml-tree-sitter
-Last git commit:
-  commit 211bb726bb5857f872247b600c7c1808e641a8d4
-  Author: Tuấn-Anh Nguyễn <ubolonton@gmail.com>
-  Date:   Tue Jul 14 03:31:00 2020 +0700
+Git repo name: tree-sitter-scala
+Latest commit in repo: 211bb726bb5857f872247b600c7c1808e641a8d4
+Last change in file:
+  commit 18b7392472ae43a9f3f7f8c881bba6f452d0f97f
+  Author: Max Brunsfeld <maxbrunsfeld@gmail.com>
+  Date:   Wed Aug 7 11:11:36 2019 -0700
   
-      Various improvements (#13)
+      Add MIT license
       
-      * Add supertypes
-      
-      * Support multi-line case clauses
-      
-      * Allow definitions in case clauses, expressions in class/object bodies
-      
-      * Add annotations, infix patterns, implicit parameters
-      
-      * Add tree-sitter CLI declaration to package.json
-      
-      * Add annotations on type parameters
-      
-      * Add type annotations, type projections; fix compound types
-      
-      * Fix operator_identifier regexp
-      
-      * Add tuple types and repeated parameter types
-      
-      * Give infix_pattern higher precedence than capture_pattern
-      
-      * Make infix_type nestable
-      
-      * Allow body-less trait_definition
-      
-      * Allow omitting parens when function_type's input is a single type
-      
-      * Put all alternatives function_type's parameters under parameter_types
-      
-      * Give alternative_pattern lower precedence than typed_pattern
-      
-      * Remove parenthesized_pattern
-      
-      * Allow empty body in case_clause
-      
-      * Regenerate parser
+      Fixes #8
 ---
 File: semgrep-grammars/src/tree-sitter-scala/grammar.js
-Git repo name: ocaml-tree-sitter
-Last git commit:
+Git repo name: tree-sitter-scala
+Latest commit in repo: 211bb726bb5857f872247b600c7c1808e641a8d4
+Last change in file:
   commit 211bb726bb5857f872247b600c7c1808e641a8d4
   Author: Tuấn-Anh Nguyễn <ubolonton@gmail.com>
   Date:   Tue Jul 14 03:31:00 2020 +0700
@@ -90,10 +58,11 @@ Last git commit:
 ---
 File: semgrep-grammars/src/semgrep-scala/grammar.js
 Git repo name: ocaml-tree-sitter
-Last git commit:
-  commit b1b6d3e7595b5368f61588db168fea32774b3f81
+Latest commit in repo: f0469e1b59ee4df9d8cdded2a7d5cb124f3ea264
+Last change in file:
+  commit 769651254e129b03a813d3a3ece6c6c54e84764a
   Author: Martin Jambon <martin@returntocorp.com>
-  Date:   Wed Apr 14 16:59:53 2021 -0700
+  Date:   Thu Feb 18 20:11:50 2021 -0800
   
-      Add release file containing the tree-sitter version
+      Add Scala
 ---
